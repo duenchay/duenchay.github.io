@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<!-- <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" align=\"center\" width=\"300\"  height=\"300\"> -->\n<html>\n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n        <div align=\"center\">\n        <!-- ตำแหน่งและเส้นขอบรูปภาพ<br> -->\n        <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" width=\"300\"  height=\"300\" >\n        <h3><b>Duenchay Wongtree</b></h3>\n        <p>60114440118</p>\n        <p>Nickname : Pare</p>\n        <p>Age : 20</p>\n        <p>My favorite song : baby don't cry</p>\n        <p>My favorite place : my bed</p>\n    \n        <p>E-mail : duenchay.wo.60@ubu.ac.th</p>\n        \n        </div>\n</body>\n</html>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<br> <br> <br> <br> <br>\n\n<div align=\"center\"> \n<img src=\"/assets/images/p.png\" alt=\"CSUBU\" width=\"360\"  height=\"300\" >\n</div>\n<html> \n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n       \n</body>\n</html>");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>pare works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<!-- <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" align=\"center\" width=\"300\"  height=\"300\"> -->\n<html>\n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n        <div align=\"center\">\n        <!-- ตำแหน่งและเส้นขอบรูปภาพ<br> -->\n        <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" width=\"300\"  height=\"300\" >\n        <h3><b>Duenchay Wongtree</b></h3>\n        <p>60114440118</p>\n        <p>Nickname : Pare</p>\n        <p>Age : 20</p>\n        <p>My favorite song : baby don't cry</p>\n        <p>My favorite place : my bed</p>\n    \n        <p>E-mail : duenchay.wo.60@ubu.ac.th</p>\n        \n        </div>\n</body>\n</html>");
 
 /***/ }),
 
@@ -123,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"topnav\">\n  <a class=\"/\" href=\"#home\">Home</a>\n  <a href=\"/card\">Cards</a>\n  <a href=\"/login\">Login</a>\n  <a href=\"/register\">Register</a>\n  <a href=\"/users\">Users</a>\n  <a href=\"#about\">About</a>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"topnav\">\n  <a class=\"/\" href=\"#home\">Home</a>\n  <a href=\"/card\">Cards</a>\n  <a href=\"/login\">Login</a>\n  <a href=\"/register\">Register</a>\n  <a href=\"/users\">Users</a>\n  <a href=\"/pare\">About</a>\n</div>\n");
 
 /***/ }),
 
@@ -387,6 +387,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
 /* harmony import */ var _users_users_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./users/users.component */ "./src/app/users/users.component.ts");
+/* harmony import */ var _pare_pare_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pare/pare.component */ "./src/app/pare/pare.component.ts");
+
 
 
 
@@ -401,6 +403,7 @@ const routes = [
     { path: 'login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
     { path: 'register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_6__["RegisterComponent"] },
     { path: 'users', component: _users_users_component__WEBPACK_IMPORTED_MODULE_7__["UsersComponent"] },
+    { path: 'pare', component: _pare_pare_component__WEBPACK_IMPORTED_MODULE_8__["PareComponent"] },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -794,7 +797,7 @@ LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhcmUvcGFyZS5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = (".center {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 50%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3BhcmUvdG9waWMvZHVlbmNoYXktd2ViLXNvdXJjZS9zcmMvYXBwL3BhcmUvcGFyZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvcGFyZS9wYXJlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9wYXJlL3BhcmUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2VudGVyIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gICAgd2lkdGg6IDUwJTtcbiAgfVxuICAiLCIuY2VudGVyIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIHdpZHRoOiA1MCU7XG59Il19 */");
 
 /***/ }),
 
