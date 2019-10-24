@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-topbar></app-topbar>\n<router-outlet></router-outlet>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-topbar></app-topbar>\n<router-outlet></router-outlet>\n\n\n");
 
 /***/ }),
 
@@ -45,7 +45,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div  align=\"center\"><h1> รายการ user </h1></div>\n<br>\n  <div class=\"card\" *ngFor=\"let friend of friends\">\n    <img src=\"{{'assets/images/'+friend.pic}}\" alt=\"Avatar\" style=\"width:100%\">\n    <div class=\"container\">\n      <h4><b>{{friend.name}}</b></h4>\n      <p>{{friend.position}}</p>\n    </div>\n  </div>\n<div>\n<!--\n<div class=\"card\" *ngIf=\"users\">มีข้อมูลแล้ว</div>\n<div class=\"card\"> {{ users | json }} </div>\n-->\n<!-- <div><h1> รายการ user </h1></div> -->\n<div class=\"card\" *ngFor=\"let u of users\">\n  <div class=\"container\">\n    <h4><b>{{u._source.user}}</b></h4>\n    <p>{{u.password}}</p>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div  align=\"center\"><h1>  My friends </h1></div>\n<br>\n  <div class=\"card\" *ngFor=\"let friend of friends\">\n    <img src=\"{{'assets/images/'+friend.pic}}\" alt=\"Avatar\" style=\"width:100%\">\n    \n    <div class=\"container\">\n      <h4><b>{{friend.name}}</b></h4>\n      <p>{{friend.position}}</p>\n    </div>\n  </div>\n<div>\n\n<div class=\"card\" *ngFor=\"let u of users\">\n  <div class=\"container\">\n    <h4><b>{{u._source.user}}</b></h4>\n    <p>{{u.password}}</p>\n  </div>\n</div>\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>eiei works!</p>\n");
 
 /***/ }),
 
@@ -58,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\">\n<!-- <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" align=\"center\" width=\"300\"  height=\"300\"> -->\n<html>\n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n        <div align=\"center\">\n        <!-- ตำแหน่งและเส้นขอบรูปภาพ<br> -->\n        <!-- <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" width=\"300\"  height=\"300\" > -->\n        </div>\n</body>\n</html>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<!-- <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" align=\"center\" width=\"300\"  height=\"300\"> -->\n<html>\n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n        <div align=\"center\">\n        <!-- ตำแหน่งและเส้นขอบรูปภาพ<br> -->\n        <img src=\"/assets/images/pare.jpg\" alt=\"CSUBU\" width=\"300\"  height=\"300\" >\n        <h3><b>Duenchay Wongtree</b></h3>\n        <p>60114440118</p>\n        <p>Nickname : Pare</p>\n        <p>Age : 20</p>\n        <p>My favorite song : baby don't cry</p>\n        <p>My favorite place : my bed</p>\n    \n        <p>E-mail : duenchay.wo.60@ubu.ac.th</p>\n        \n        </div>\n</body>\n</html>");
 
 /***/ }),
 
@@ -75,6 +88,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/pare/pare.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pare/pare.component.html ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>pare works!</p>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
 /*!****************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
@@ -84,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<form action=\"\" method=\"POST\" (ngSubmit)=\"signup(registerForm)\" #registerForm =\"ngForm\" style=\"border:1px solid #ccc\">\n  <div class=\"container\">\n    <h1>ลงทะเบียน</h1>\n  <p>กรุณากรอกข้อมูลต่อไปนี้ให้ครบถ้วน</p>\n    <hr>\n    <label for=\"user\"><b>User</b></label>\n    <input type=\"text\" placeholder=\"User\" #user name=\"user\" ngModel>\n\n    <label for=\"password\"><b>Password</b></label>\n    <input type=\"password\" placeholder=\"Password\" #password name=\"password\" ngModel>\n\n    <p>ยอมรับข้อกำหนด<a href=\"#\" style=\"color:dodgerblue\">ข้อกำหนด</a>ของเว็บไซต์</p>\n\n    <div class=\"clearfix\">\n      <button type=\"button\" class=\"cancelbtn\">ยกเลิก</button>\n      <button type=\"submit\" class=\"signupbtn\" >ลงทะเบียน</button>\n    </div>\n  </div>\n</form>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<form action=\"\" method=\"POST\" (ngSubmit)=\"signup(registerForm)\" #registerForm =\"ngForm\" style=\"border:1px solid #ccc\">\n  <div class=\"container\">\n    <h1 align=\"center\">ลงทะเบียน</h1>\n  <!-- <p>กรุณากรอกข้อมูลต่อไปนี้ให้ครบถ้วน</p> -->\n    <hr>\n    <label for=\"user\"><b>User</b></label>\n    <input type=\"text\" placeholder=\"User\" #user name=\"user\" ngModel>\n\n    <label for=\"password\"><b>Password</b></label>\n    <input type=\"password\" placeholder=\"Password\" #password name=\"password\" ngModel>\n\n    <p>ยอมรับข้อกำหนด<a href=\"#\" style=\"color:dodgerblue\">ข้อกำหนด</a>ของเว็บไซต์</p>\n\n    <div class=\"clearfix\">\n      <button type=\"button\" class=\"cancelbtn\">ยกเลิก</button>\n      <button type=\"submit\" class=\"signupbtn\" >ลงทะเบียน</button>\n    </div>\n  </div>\n</form>\n");
 
 /***/ }),
 
@@ -461,6 +487,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! angularfire2/database */ "./node_modules/angularfire2/database/index.js");
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(angularfire2_database__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _pare_pare_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pare/pare.component */ "./src/app/pare/pare.component.ts");
+/* harmony import */ var _eiei_eiei_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./eiei/eiei.component */ "./src/app/eiei/eiei.component.ts");
 
 
 
@@ -479,6 +507,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -491,6 +521,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"],
             _register_register_component__WEBPACK_IMPORTED_MODULE_10__["RegisterComponent"],
             _users_users_component__WEBPACK_IMPORTED_MODULE_11__["UsersComponent"],
+            _pare_pare_component__WEBPACK_IMPORTED_MODULE_16__["PareComponent"],
+            _eiei_eiei_component__WEBPACK_IMPORTED_MODULE_17__["EieiComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -518,7 +550,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card {\n  float: left;\n  width: 400px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3BhcmUvdG9waWMvZHVlbmNoYXktd2ViLXNvdXJjZS9zcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiA0MDBweDtcbn1cbiIsIi5jYXJkIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiA0MDBweDtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".card {\n  float: left;\n  width: 250px;\n}\n\nh1 {\n  color: #F8B8B3;\n}\n\nimg {\n  height: 300px;\n  float: left;\n  width: 120px;\n  border-radius: 300px;\n}\n\ndiv.gallery {\n  margin: 5px;\n  border: 5px solid #0a0000;\n  float: left;\n}\n\ndiv.gallery:hover {\n  border: 5px solid #F7FDAF;\n}\n\ndiv.desc {\n  padding: 15px;\n  text-align: center;\n  background: #66ffcc;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3BhcmUvdG9waWMvZHVlbmNoYXktd2ViLXNvdXJjZS9zcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY2FyZC9jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUNDRjs7QURDQTtFQUNFLGNBQUE7QUNFRjs7QURDQTtFQUNFLGFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG9CQUFBO0FDRUY7O0FEQUE7RUFDRSxXQUFBO0VBQ0EseUJBQUE7RUFDQSxXQUFBO0FDR0Y7O0FEQUE7RUFDRSx5QkFBQTtBQ0dGOztBREVBO0VBQ0UsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2NhcmQvY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiAyNTBweDtcbn1cbmgxe1xuICBjb2xvcjogI0Y4QjhCMztcblxufVxuaW1ne1xuICBoZWlnaHQ6IDMwMHB4O1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDEyMHB4O1xuICBib3JkZXItcmFkaXVzOiAzMDBweDtcbn1cbmRpdi5nYWxsZXJ5IHtcbiAgbWFyZ2luOiA1cHg7XG4gIGJvcmRlcjogNXB4IHNvbGlkIHJnYigxMCwgMCwgMCk7XG4gIGZsb2F0OiBsZWZ0O1xufVxuXG5kaXYuZ2FsbGVyeTpob3ZlciB7XG4gIGJvcmRlcjogNXB4IHNvbGlkICAjRjdGREFGO1xufVxuXG5cblxuZGl2LmRlc2Mge1xuICBwYWRkaW5nOiAxNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGJhY2tncm91bmQ6ICM2NmZmY2M7XG59IiwiLmNhcmQge1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDI1MHB4O1xufVxuXG5oMSB7XG4gIGNvbG9yOiAjRjhCOEIzO1xufVxuXG5pbWcge1xuICBoZWlnaHQ6IDMwMHB4O1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDEyMHB4O1xuICBib3JkZXItcmFkaXVzOiAzMDBweDtcbn1cblxuZGl2LmdhbGxlcnkge1xuICBtYXJnaW46IDVweDtcbiAgYm9yZGVyOiA1cHggc29saWQgIzBhMDAwMDtcbiAgZmxvYXQ6IGxlZnQ7XG59XG5cbmRpdi5nYWxsZXJ5OmhvdmVyIHtcbiAgYm9yZGVyOiA1cHggc29saWQgI0Y3RkRBRjtcbn1cblxuZGl2LmRlc2Mge1xuICBwYWRkaW5nOiAxNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGJhY2tncm91bmQ6ICM2NmZmY2M7XG59Il19 */");
 
 /***/ }),
 
@@ -566,6 +598,50 @@ CardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./card.component.scss */ "./src/app/card/card.component.scss")).default]
     })
 ], CardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/eiei/eiei.component.scss":
+/*!******************************************!*\
+  !*** ./src/app/eiei/eiei.component.scss ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2VpZWkvZWllaS5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/eiei/eiei.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/eiei/eiei.component.ts ***!
+  \****************************************/
+/*! exports provided: EieiComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EieiComponent", function() { return EieiComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let EieiComponent = class EieiComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+EieiComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-eiei',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./eiei.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./eiei.component.scss */ "./src/app/eiei/eiei.component.scss")).default]
+    })
+], EieiComponent);
 
 
 
@@ -709,6 +785,50 @@ LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/pare/pare.component.scss":
+/*!******************************************!*\
+  !*** ./src/app/pare/pare.component.scss ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhcmUvcGFyZS5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/pare/pare.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/pare/pare.component.ts ***!
+  \****************************************/
+/*! exports provided: PareComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PareComponent", function() { return PareComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let PareComponent = class PareComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+PareComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-pare',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./pare.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/pare/pare.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./pare.component.scss */ "./src/app/pare/pare.component.scss")).default]
+    })
+], PareComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/register/register.component.scss":
 /*!**************************************************!*\
   !*** ./src/app/register/register.component.scss ***!
@@ -811,7 +931,7 @@ RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".topnav {\n  background-color: #333;\n  overflow: hidden;\n}\n\n.topnav a {\n  float: left;\n  color: #f2f2f2;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n  font-size: 17px;\n}\n\n.topnav a:hover {\n  background-color: #ddd;\n  color: black;\n}\n\n.topnav a.active {\n  background-color: #4CAF50;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3BhcmUvdG9waWMvZHVlbmNoYXktd2ViLXNvdXJjZS9zcmMvYXBwL3RvcGJhci90b3BiYXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3RvcGJhci90b3BiYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBQTtFQUNBLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSxXQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7QUNDRjs7QURFQTtFQUNFLHNCQUFBO0VBQ0EsWUFBQTtBQ0NGOztBREVBO0VBQ0UseUJBQUE7RUFDQSxZQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC90b3BiYXIvdG9wYmFyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRvcG5hdiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzMzM7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi50b3BuYXYgYSB7XG4gIGZsb2F0OiBsZWZ0O1xuICBjb2xvcjogI2YyZjJmMjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwYWRkaW5nOiAxNHB4IDE2cHg7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC1zaXplOiAxN3B4O1xufVxuXG4udG9wbmF2IGE6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGRkO1xuICBjb2xvcjogYmxhY2s7XG59XG5cbi50b3BuYXYgYS5hY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNENBRjUwO1xuICBjb2xvcjogd2hpdGU7XG59XG4iLCIudG9wbmF2IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuLnRvcG5hdiBhIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIGNvbG9yOiAjZjJmMmYyO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE0cHggMTZweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBmb250LXNpemU6IDE3cHg7XG59XG5cbi50b3BuYXYgYTpob3ZlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNkZGQ7XG4gIGNvbG9yOiBibGFjaztcbn1cblxuLnRvcG5hdiBhLmFjdGl2ZSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM0Q0FGNTA7XG4gIGNvbG9yOiB3aGl0ZTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".topnav {\n  background-color: #C7CEEA;\n  overflow: hidden;\n}\n\n.topnav a {\n  float: left;\n  color: #F9AE48;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n  font-size: 17px;\n}\n\n.topnav a:hover {\n  background-color: #ddd;\n  color: #AEC5F1;\n}\n\n.topnav a.active {\n  background-color: #4CAF50;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3BhcmUvdG9waWMvZHVlbmNoYXktd2ViLXNvdXJjZS9zcmMvYXBwL3RvcGJhci90b3BiYXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3RvcGJhci90b3BiYXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSxXQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7QUNDRjs7QURFQTtFQUNFLHNCQUFBO0VBQ0EsY0FBQTtBQ0NGOztBREVBO0VBQ0UseUJBQUE7RUFDQSxZQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC90b3BiYXIvdG9wYmFyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRvcG5hdiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNDN0NFRUE7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbi50b3BuYXYgYSB7XG4gIGZsb2F0OiBsZWZ0O1xuICBjb2xvcjogI0Y5QUU0ODtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwYWRkaW5nOiAxNHB4IDE2cHg7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC1zaXplOiAxN3B4O1xufVxuXG4udG9wbmF2IGE6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGRkO1xuICBjb2xvcjogI0FFQzVGMTtcbn1cblxuLnRvcG5hdiBhLmFjdGl2ZSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM0Q0FGNTA7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cbiIsIi50b3BuYXYge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjQzdDRUVBO1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4udG9wbmF2IGEge1xuICBmbG9hdDogbGVmdDtcbiAgY29sb3I6ICNGOUFFNDg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgcGFkZGluZzogMTRweCAxNnB4O1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIGZvbnQtc2l6ZTogMTdweDtcbn1cblxuLnRvcG5hdiBhOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2RkZDtcbiAgY29sb3I6ICNBRUM1RjE7XG59XG5cbi50b3BuYXYgYS5hY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNENBRjUwO1xuICBjb2xvcjogd2hpdGU7XG59Il19 */");
 
 /***/ }),
 
@@ -867,20 +987,33 @@ let UserService = class UserService {
         this.http = http;
         this.friends = [
             {
-                name: 'Duenchay Wongtree',
+                name: 'แพรรี่',
                 pic: 'pare.jpg',
-                position: 'CEO',
             },
             {
-                name: 'Thidarat Ruamsamrong',
+                name: 'เกดจัง',
                 pic: 'ket.jpg',
-                position: 'Secretary',
             },
             {
-                name: 'Toranit Wongkhamsa',
+                name: 'เจ้าคิง',
                 pic: 'king.jpg',
-                position: 'IT Support',
-            }
+            },
+            {
+                name: 'เบนซ์ศรี',
+                pic: 'alisa.jpg',
+            },
+            {
+                name: 'ติ๊กเกอร์',
+                pic: 'tik.jpg',
+            },
+            {
+                name: 'เหมียวหมิว',
+                pic: 'sirilak.jpg',
+            },
+            {
+                name: 'ปัดทามาวันนน',
+                pic: 'pat.jpg',
+            },
         ];
         this._getUsers();
     }
@@ -951,34 +1084,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! angularfire2/database */ "./node_modules/angularfire2/database/index.js");
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(angularfire2_database__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
-// import { Component, OnInit } from '@angular/core';
-// import { UserService } from '../user.service';
 
-// @Component({
-//   selector: 'app-users',
-//   templateUrl: './users.component.html',
-//   styleUrls: ['./users.component.scss']
-// })
-// export class UsersComponent implements OnInit {
-//   users: any;
-//   constructor(private userService: UserService) {
-//   }
-//   ngOnInit() {
-//     this.userService._getUsers().subscribe(
-//       (data: any) => {
-//         this.users = data.result.hits;
-//         console.log(this.users);
-//         for (const u of this.users) {
-//           // console.log(u['source'])
-//           // console.log(u._source)
-//           console.log(u._source.user);
-//         }
-//       },
-//       error => {
-//       }
-//     );
-//   }
-// }
 
 
 
