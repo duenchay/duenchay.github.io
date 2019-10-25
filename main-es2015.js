@@ -49,19 +49,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>eiei works!</p>\n");
-
-/***/ }),
-
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
 /*!********************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
@@ -71,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<br> <br> <br> <br> <br>\n\n<div align=\"center\"> \n<img src=\"/assets/images/p.png\" alt=\"CSUBU\" width=\"360\"  height=\"300\" >\n</div>\n<html> \n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n       \n</body>\n</html>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<br> <br> <br> <br> <br>\n\n<div align=\"center\"> \n<img src=\"/assets/images/p.png\" alt=\"CSUBU\" width=\"357\"  height=\"300\" >\n</div>\n<html> \n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n       \n</body>\n</html>");
 
 /***/ }),
 
@@ -491,7 +478,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(angularfire2_database__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _pare_pare_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pare/pare.component */ "./src/app/pare/pare.component.ts");
-/* harmony import */ var _eiei_eiei_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./eiei/eiei.component */ "./src/app/eiei/eiei.component.ts");
 
 
 
@@ -511,7 +497,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -525,7 +510,6 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _register_register_component__WEBPACK_IMPORTED_MODULE_10__["RegisterComponent"],
             _users_users_component__WEBPACK_IMPORTED_MODULE_11__["UsersComponent"],
             _pare_pare_component__WEBPACK_IMPORTED_MODULE_16__["PareComponent"],
-            _eiei_eiei_component__WEBPACK_IMPORTED_MODULE_17__["EieiComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -601,50 +585,6 @@ CardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./card.component.scss */ "./src/app/card/card.component.scss")).default]
     })
 ], CardComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/eiei/eiei.component.scss":
-/*!******************************************!*\
-  !*** ./src/app/eiei/eiei.component.scss ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2VpZWkvZWllaS5jb21wb25lbnQuc2NzcyJ9 */");
-
-/***/ }),
-
-/***/ "./src/app/eiei/eiei.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/eiei/eiei.component.ts ***!
-  \****************************************/
-/*! exports provided: EieiComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EieiComponent", function() { return EieiComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let EieiComponent = class EieiComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-EieiComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-eiei',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./eiei.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/eiei/eiei.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./eiei.component.scss */ "./src/app/eiei/eiei.component.scss")).default]
-    })
-], EieiComponent);
 
 
 
