@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<br> <br> <br> <br> <br>\n\n<div align=\"center\"> \n<img src=\"/assets/images/p.png\" alt=\"CSUBU\" width=\"357\"  height=\"300\" >\n</div>\n<html> \n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n       \n</body>\n</html>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- หน้า about -->\n<!-- <img src=\"/assets/comsciubu-facebook.jpg\" alt=\"CSUBU\" class=\"center\"> -->\n<br> <br> <br> <br> <br>\n\n<div align=\"center\"> \n<img src=\"/assets/images/p.png\"  width=\"357\"  height=\"300\" >\n</div>\n<html> \n\n<head>\n    <title>\n        <!-- Insert Images : ตำแหน่งและเส้นขอบรูปภาพ -->\n    </title>\n</head>\n<body>\n       \n</body>\n</html>");
 
 /***/ }),
 
